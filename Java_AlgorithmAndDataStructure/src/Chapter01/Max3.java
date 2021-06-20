@@ -1,8 +1,9 @@
 package Chapter01;
 
 import java.util.Scanner;
+// 3개의 정숫값을 입력하고 최댓값을 구합니다.
 
-public class Max3 {
+class Max3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -15,6 +16,7 @@ public class Max3 {
 		System.out.print("c의 값 : ");
 		int c = sc.nextInt();
 		
+		// a, b, c의 최댓값을 구하여 max에 대입
 		int max = a;
 		if(b > max) max = b;
 		if(c > max) max = c;

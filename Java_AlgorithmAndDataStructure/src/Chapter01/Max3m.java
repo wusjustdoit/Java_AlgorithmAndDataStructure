@@ -11,7 +11,7 @@ class Max3m {
 			max = c;
 		
 		// 구한 최댓값을 호출한 곳으로 반환
-		return max;
+		return max; 
 	}
 	
 	public static void main(String[] args) {
